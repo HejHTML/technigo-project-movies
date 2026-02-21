@@ -45,7 +45,6 @@ code {
 @media (min-width: 768px) {
   .movie-detail-container {
     flex-direction: row;
-    /* bild + text sida vid sida på tablet/desktop */
     align-items: flex-start;
   }
 
