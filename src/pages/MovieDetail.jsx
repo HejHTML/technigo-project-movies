@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
 
-export const MovieDetail = () => {
+export default function MovieDetail() {
     const { id } = useParams()
     const [movie, setMovie] = useState(null)
     const [loading, setLoading] = useState(true)
@@ -34,7 +34,7 @@ export const MovieDetail = () => {
             <div
                 style={{
                     display: "flex",
-                    flexDirection: "column", // stapla på mobil
+                    flexDirection: "column",
                     gap: "20px",
                 }}
             >

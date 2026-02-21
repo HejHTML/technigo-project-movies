@@ -24,7 +24,7 @@ export const MovieList = () => {
 
     return (
         <div>
-            <h1>Popular Movies</h1>
+            <h1>In the mood for a movie?</h1>
             <div className="movie-grid">
                 {movies.map(movie => (
                     <Link key={movie.id} to={`/movies/${movie.id}`} className="movie-card">
