@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.movie-card h3 {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+.movie-detail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.movie-detail-container img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .movie-detail-container {
+    flex-direction: row;
+    /* bild + text sida vid sida på tablet/desktop */
+    align-items: flex-start;
+  }
+
+  .movie-detail-container img {
+    margin-right: 20px;
+  }
+}
