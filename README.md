@@ -24,7 +24,7 @@ Add search or filtering options
 How to run the project locally
 
 ## View it live
-
+https://efmovie.netlify.app/
 
 
 

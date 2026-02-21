@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import { MovieList } from "./pages/MovieList"
-import { MovieDetail } from "./pages/MovieDetail"
+import MovieDetail from "./pages/MovieDetail"
 
 export default function App() {
   return (
